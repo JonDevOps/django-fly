@@ -1,0 +1,6 @@
+<h1>Django Todo App</h1>
+<ul>
+  {% for text in todo_list %}
+    <li>{{ text.todo }}</li>
+  {% endfor %}
+</ul>
